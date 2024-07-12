@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(106, 106, 173, 0.075);
+}
+
+body {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 500px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.titleWatch {
+    font-size: 2.5em;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.hourSpan,
+.minuteSpan,
+.secondSpan,
+.millisecondSpan {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button button {
+    background: linear-gradient(to right, #283048, #859398);
+    border: none;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: background 0.3s;
+}
+
+.button button:hover {
+    background: linear-gradient(to right, #859398, #283048);
+}
